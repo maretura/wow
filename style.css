@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.8s;
+}
+
+.main{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image:url(bl.png) ;
+
+    h4{
+    color: #e0e0e0;
+    }
+    a{color: #caa9a9;}
+    a:hover { color: #f01b62 ; }
+    
+    p{
+    display:inline-block;
+    font-size: 32px;
+    font-style: italic;
+    line-height: 1em;
+    color: #3b38e7;
+    background-color: #e0e0e0;
+    }
+
+    a{
+     overflow: hidden;
+     display: flex;
+     width: 30%;
+     height: auto;
+     padding: 0;
+     margin: 0;
+    }   
+
+    img{
+     width: 100%;
+     height: auto;
+    }
+
+    .yokoni{
+    display: flex;
+    image-rendering: auto;
+    align-items: flex-start;
+    white-space: nowrap;
+    justify-content: center;
+    }
+
+    ul{
+     padding-left: 0;
+    }
+
+    li{
+     list-style: none;
+    }
+}
+
+
+.sub_01{
+    font-size: 2rem;
+    background:linear-gradient(to right,#2926c0,#b087d1);
+}
